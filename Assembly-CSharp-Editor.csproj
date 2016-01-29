@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{EBCCF8EF-D7CE-E4C1-563C-AE4D69B74A0C}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXBuildFile.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXBuildPhase.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXDictionary.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXFileReference.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXGroup.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXList.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXObject.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXParser.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\PBXProject.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XCBuildConfiguration.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XCConfigurationList.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XCFileOperationQueue.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XCMod.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XCProject.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XCSourceFile.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XCTarget.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XCodeEditorMenu.cs" />
+     <Compile Include="Assets\Zendesk\Editor\XCodeEditor\XMiniJSON.cs" />
+     <Compile Include="Assets\Zendesk\Editor\ZDKCleanup.cs" />
+     <Compile Include="Assets\Zendesk\Editor\ZDKManifestEditor.cs" />
+     <Compile Include="Assets\Zendesk\Editor\ZDKPostProcess.cs" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\styles_rtl.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-hy-rAM\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_btn_check_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-af\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ka-rGE\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_up_container.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_menu_item_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-fi\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_list_menu_item_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w480dp\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-mn-rMN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sv\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-land\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\activity_rate_my_app.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_cab_background_top_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w720dp\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ur-rPK\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_mode_bar.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_screen_simple.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v14\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-hr\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_list_selector_background_transition_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_search_url_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w600dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-el\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-hu\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-large\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-km-rKH\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v11\styles_base_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\support_simple_spinner_dropdown_item.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v17\styles_rtl.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_edit_text_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-uk\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-nb\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-uz-rUZ\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\styles_base_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-pt\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_primary_text_disable_only_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v21\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ja\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ky-rKG\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w480dp\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-et-rEE\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-it\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-tr\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v21\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ca\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-pl\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ml-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-nl\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_cab_background_internal_bg.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_list_selector_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w360dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-in\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_fade_out.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_screen_simple_overlay_action_mode.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v21\styles_base_text.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-large\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ta-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\colors_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-lv\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_search_view.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_textfield_search_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-land\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_slide_out_bottom.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ru\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_background_cache_hint_selector_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_item_background_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-xlarge\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_btn_radio_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\ids.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-xlarge\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-bg\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sw600dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_item_background_holo_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-hi\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_activity_chooser_view_include.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_background_cache_hint_selector_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-tl\strings.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sw\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_screen_content_include.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-gl-rES\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_list_menu_item_icon.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_secondary_text_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_activity_chooser_view_list_item.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-lo-rLA\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v11\themes_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-mk-rMK\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-fr-rCA\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-pt-rPT\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_activity_chooser_view.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-zh-rHK\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\dimens_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_primary_text_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_popup_menu_item_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ko\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-te-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_secondary_text_material_light.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_title_item.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_list_selector_background_transition_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-land\dimens_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_list_menu_item_radio.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-am\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-bn-rBD\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_screen_toolbar.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sw600dp\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-large\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_fade_in.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_primary_text_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout-v11\abc_screen_content_include.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\color\abc_primary_text_disable_only_material_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_menu_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_search_dropdown_item_icons_2line.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-land\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-fa\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-mr-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-kn-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_list_menu_item_checkbox.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-da\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-eu-rES\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-my-rMM\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\themes.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-is-rIS\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sl\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_switch_thumb_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ne-rNP\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_expanded_menu_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_slide_in_bottom.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_tab_indicator_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_mode_close_item_material.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-vi\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_slide_out_top.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-zu\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-w500dp\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_action_bar_view_list_nav_layout.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\anim\abc_slide_in_top.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\layout\abc_simple_dropdown_hint.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-en-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\drawable\abc_list_selector_holo_dark.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-xlarge-land\dimens.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-kk-rKZ\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-si-rLK\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-lt\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-ms-rMY\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\README.txt" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-cs\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-v11\styles_base.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-port\bools.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-large\config.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-sr\strings.xml" />
+     <None Include="Assets\Plugins\Android\appcompat\res\values-zh-rTW\strings.xml" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Tizen.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SamsungTV.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/stvplayer/UnityEditor.SamsungTV.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>D:/Programme/Unity_5.2.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{CDB7D70F-FB5D-95A5-D34A-9E09CE06D832}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
